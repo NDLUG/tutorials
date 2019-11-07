@@ -1,0 +1,12 @@
+<h2>Nick names</h2>
+
+<p>The proceeding list is dynamically generated from data in the backend!</p>
+
+<ul>
+  {% for name, nick in nicks %}
+  <li>
+    <b>{{ name }}</b> is nicknamed 
+    <b>{{ nick }}</b>
+  </li>
+  {% endfor %}
+</ul>

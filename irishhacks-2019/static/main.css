@@ -1,0 +1,14 @@
+* {
+  font-family: monospace;
+  /* background-color: lightgrey; */
+}
+
+h1 {
+  color: red;
+}
+
+.my_custom_div {
+  background-color: orange;
+  font-weight: bold;
+}
+

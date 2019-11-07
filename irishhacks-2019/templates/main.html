@@ -1,0 +1,26 @@
+<!-- This is the CSS file we are importing from /static/main.css -->
+<link type="text/css" rel="stylesheet" href="/static/main.css">
+<h1>Hello!</h1>
+
+<form action="/myroute">
+  <label for="?">First Input</label>
+    <input name="info" id="info" value="Sample Text">
+</form>
+
+<form action="/secondroute">
+  <label for="?">Second Input</label>
+    <input name="message" id="message" value="Sample Text">
+</form>
+<form action="/color">
+  <label for="?">Color Input</label>
+    <input name="color" id="message" value="Blue">
+</form>
+<div class="my_custom_div">
+  <p>
+    Also, here is some custom styling to look at
+  </p>
+</div>
+
+<a href="/list">Click here to see all the nick names</a>
+<br>
+<a href="/info">Click here to see some more links for tutorials about flask, html, etc</a>
